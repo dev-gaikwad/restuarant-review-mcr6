@@ -18,6 +18,11 @@ article {
 .title img {
   width: 50px;
   height: 50px;
+  border-radius: 50%;
+}
+
+.title p {
+  font-weight: bold;
 }
 .rating p {
   display: inline-block;
