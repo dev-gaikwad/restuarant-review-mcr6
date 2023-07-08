@@ -1,0 +1,20 @@
+.container {
+  width: 95vw;
+  max-width: 950px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addBtn {
+  width: 7rem;
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green);
+  cursor: pointer;
+  padding: 0.75rem;
+}
+.addBtn:hover {
+  background-color: var(--accent-green);
+  color: white;
+  border: var(--accent-green);
+}
