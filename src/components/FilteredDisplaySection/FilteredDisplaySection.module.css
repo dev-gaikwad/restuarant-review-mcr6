@@ -1,0 +1,8 @@
+.filterSection {
+  width: 95vw;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

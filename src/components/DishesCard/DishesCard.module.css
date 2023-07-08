@@ -1,0 +1,33 @@
+.dishCard {
+  width: 200px;
+  height: 290px;
+  margin: 1rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.imgDiv {
+  position: relative;
+}
+
+.imgDiv img {
+  width: 192px;
+  height: 192px;
+}
+
+.description {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.description h4,
+p {
+  margin: 0;
+}
+
+.description p {
+  color: var(--secondary-text);
+}

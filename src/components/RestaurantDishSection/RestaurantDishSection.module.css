@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+
+.header button {
+  width: 6rem;
+  color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: var(--accent-blue);
+  color: white;
+}
+
+.dishesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
